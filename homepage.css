@@ -9,7 +9,10 @@ html {
   box-sizing: inherit;
 }
 
-
-h1 {
-  color: red;
+/* TOP BLOCK SECTION */
+/*-------------------*/
+#top-block .hp-bg {
+  background-image: url(images/whiteside_mountain.jpg);
+  background-size: cover;
+  background-position: center center;
 }
