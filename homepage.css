@@ -37,6 +37,12 @@ html {
 #work-block {
   background-color: rgb(174, 174, 174);;
 }
+#work-block .block-card {
+  -webkit-box-shadow: rgb(0 0 0 / 40%) 0px 5px 15px;
+  -moz-box-shadow: rgba(0,0,0,0.4) 0px 5px 15px;
+  -o-box-shadow: rgba(0,0,0,0.4) 0px 5px 15px;
+  box-shadow: rgb(0 0 0 / 40%) 0px 5px 15px;
+}
 
 @media (min-width: 768px) {
   #work-block .offset-3 {
