@@ -36,6 +36,10 @@ html {
 #about-block {
   padding: 5%;
 }
+#about-block .profile-bio {
+  display: flex;
+  align-items: center;
+}
 
 
 /* WORK BLOCK SECTION */
