@@ -20,8 +20,12 @@ html {
 }
 .hp-overlay {
   position: relative;
-  top: 125px;
+  top: 90px;
 }
 #top-block h1 {
   color: #fff;
+}
+.header-img {
+  max-width: 20%;
+  margin: auto;
 }
