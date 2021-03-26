@@ -2,6 +2,7 @@ html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  font-family: 'Kiwi Maru', serif;
 }
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
@@ -16,18 +17,24 @@ html {
   background-image: url(images/whiteside_mountain.jpg);
   background-size: cover;
   background-position: center center;
-  height: 500px;
+  height: 400px;
 }
 .hp-overlay {
   position: relative;
-  top: 90px;
+  top: 150px;
 }
 #top-block h1 {
   color: #fff;
 }
-.header-img {
+/* .header-img {
   max-width: 20%;
   margin: auto;
+} */
+
+/* ABOUT BLOCK SECTION */
+/*-------------------*/
+#about-clock {
+  padding: 5%;
 }
 
 
@@ -35,7 +42,8 @@ html {
 /*-------------------*/
 
 #work-block {
-  background-color: rgb(174, 174, 174);;
+  background-color: rgb(210, 206, 234);
+  padding: 5%;
 }
 #work-block .block-card {
   -webkit-box-shadow: rgb(0 0 0 / 40%) 0px 5px 15px;
@@ -47,5 +55,10 @@ html {
 @media (min-width: 768px) {
   #work-block .offset-3 {
     margin-left: 0;
+  }
+}
+@media (max-width: 767px) {
+  #work-block .last-card {
+    padding-top: 5%;
   }
 }
