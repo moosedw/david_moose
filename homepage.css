@@ -56,7 +56,7 @@ body {
 
 #work-block {
   background-color: rgb(210, 206, 234);
-  margin: 5%;
+  padding: 5%;
 }
 #work-block .block-card {
   -webkit-box-shadow: rgb(0 0 0 / 40%) 0px 5px 15px;
@@ -68,6 +68,7 @@ body {
   margin-top: 3%;
   font-weight: 500;
   color: #fff;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
