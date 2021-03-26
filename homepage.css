@@ -29,3 +29,17 @@ html {
   max-width: 20%;
   margin: auto;
 }
+
+
+/* WORK BLOCK SECTION */
+/*-------------------*/
+
+#work-block {
+  background-color: rgb(174, 174, 174);;
+}
+
+@media (min-width: 768px) {
+  #work-block .offset-3 {
+    margin-left: 0;
+  }
+}
