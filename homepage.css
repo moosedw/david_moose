@@ -16,11 +16,11 @@ html {
   background-image: url(images/whiteside_mountain.jpg);
   background-size: cover;
   background-position: center center;
-  height: 400px;
+  height: 500px;
 }
 .hp-overlay {
   position: relative;
-  top: 150px;
+  top: 125px;
 }
 #top-block h1 {
   color: #fff;
