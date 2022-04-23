@@ -1,0 +1,19 @@
+/* CARDS LINEUP */
+.lineup-card .order-spot {
+  font-size: 2rem;
+  display: block;
+  background-color: #72AEE127;
+  border-radius: 5px;
+  border: 2px solid #B80C1E;
+  padding-bottom: 10px;
+}
+.lineup-card .batting-order {
+  color: #72AEE1;
+}
+.lineup-card .player-name,
+.lineup-card .player-position {
+  color: #02173F;
+}
+.lineup-card .player-number {
+  color: #B80C1E;
+}
