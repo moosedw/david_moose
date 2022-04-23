@@ -15,6 +15,7 @@ body {
 #field-lineup .flex-lineup {
   display: flex;
   align-items: center;
+  padding-top: 10px;
 }
 .lineup-card .order-spot {
   font-size: 2rem;
