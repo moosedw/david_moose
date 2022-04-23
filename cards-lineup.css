@@ -1,7 +1,8 @@
 /* CARDS LINEUP */
 .lineup-card .order-spot {
   font-size: 2rem;
-  display: block;
+  display: grid;
+  grid-template-columns: .25fr 1fr .25fr .25fr;
   background-color: #72AEE127;
   border-radius: 5px;
   border: 2px solid #B80C1E;
