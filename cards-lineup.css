@@ -12,6 +12,10 @@ body {
   -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
+#field-lineup .flex-row {
+  display: flex;
+  align-items: center;
+}
 .lineup-card .order-spot {
   font-size: 2rem;
   display: grid;
