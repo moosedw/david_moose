@@ -12,7 +12,7 @@ body {
   -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
-#field-lineup .flex-row {
+#field-lineup .flex-lineup {
   display: flex;
   align-items: center;
 }
@@ -24,6 +24,7 @@ body {
   border-radius: 5px;
   border: 2px solid #B80C1E;
   padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .lineup-card .batting-order {
   color: #72AEE1;
